@@ -1,5 +1,11 @@
 #!/bin/bash
 
+echo -e "\e[1;36m   ___          ______      \e[0m"
+echo -e "\e[1;36m  /     |\_/|  ___   /      \e[0m"
+echo -e "\e[1;36m  \  /| |   | /|     \ |\ | \e[0m"
+echo -e "\e[1;36m__/   | |   |  | ____/ | \| \e[0m"
+echo -e "\e[1;33m simply by <3 @arundhanush  \e[0m"
+
 if [ $# -gt 2 ];
 then
 	echo "Usage ./log.sh <domain>"
@@ -40,7 +46,7 @@ echo -e "\e[1;34mChecking for vlun Subdomains \e[0m"
 echo ""
 subzy -targets all.txt -hide_fails | tee subsdomainvlun.txt
 echo ""
-echo "WARNING: In txt file only shows vlun domains or else nothing there that case you can check Manually!"
+echo -e "\e[1;33mWARNING: In txt file only shows vlun domains or else nothing there that case you can check Manually!\e[0m"
 echo ""
 echo -e "\e[1;32m---------------Completed! Saved as subsdomainvlun.txt------------------\e[0m"
 echo ""
