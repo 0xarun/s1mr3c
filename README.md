@@ -1,2 +1,4 @@
 # s1mr3c
-Simple Recon Tool Just automate your tools. this my first tyr :) so avoid if anything weird!
+Simple Recon Tool Just here automates your fav tools set. this my first try :) so avoid if anything weird!
+
+
