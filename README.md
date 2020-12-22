@@ -16,7 +16,7 @@ Must have this tools in /usr/local/bin with all permissions.
 6. [gf](https://github.com/tomnomnom/gf)
 7. [gobuster](https://github.com/OJ/gobuster)
 
-Easy to install those tools, i guess jsut you face errors in while install [gf](https://github.com/tomnomnom/gf) watch how install gf 
+Easy to install those tools, i guess just you faces the errors on while install [gf](https://github.com/tomnomnom/gf) watch how install gf 
 then install it correctly.
 
 save those tools in /usr/local/bin and you can modify the tool like run your fav tool there easy to change it.
