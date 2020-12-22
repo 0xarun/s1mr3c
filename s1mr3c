@@ -45,7 +45,7 @@ echo ""
 echo -e "\e[1;32m---------------Completed! Saved as subsdomainvlun.txt------------------\e[0m"
 echo ""
 
-echo "Now Starting Wayabackrls and Waybackurls realted Enumerations"
+echo -e "\e[1;33mNow Starting Wayabackrls and Waybackurls realted Enumerations! \e[0m"
 sleep 2
 echo ""
 echo -e "\e[1;34mStart running Waybackurls \e[0m"
@@ -95,7 +95,7 @@ echo "How many links realeted to rediret shown above!"
 echo -e "\e[1;32m---------------Completed! Saved as wayback-redirect.txt------------------\e[0m"
 
 echo ""
-echo "WARNING: Now nmap Starting you can stop it coz this takes lot time"
+echo -e "\e[1;33mWARNING: Now nmap Starting you can stop it coz this takes lot time! \e[0m"
 sleep 5
 
 
@@ -106,7 +106,7 @@ echo ""
 echo -e "\e[1;32m---------------Completed! Saved to nmap-all------------------\e[0m"
 
 echo ""
-echo "WARNING: Now Gobuster Starting you can stop it coz this takes lot time"
+echo -e "\e[1;33mWARNING: Now Gobuster Starting you can stop it coz this takes lot time! \e[0m"
 sleep 5
 
 echo ""
