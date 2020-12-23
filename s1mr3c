@@ -94,7 +94,6 @@ echo -e "\e[1;34mEnum for XSS from waybackurls! \e[0m"
 cat wayback-all/waybackurls.txt | grep "=" | qsreplace '"<script>confirm(1)</script>' |tee wayback-all/wayback-xss.txt | wc -l
 echo "Number of ssrf found shown above!"
 echo -e "\e[1;32m---------------Completed! Saved as wayback-xss.txt------------------\e[0m"
-echo ""
 
 echo ""
 echo -e "\e[1;34mEnum for Redirect from waybackurls! \e[0m"
