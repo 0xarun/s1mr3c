@@ -4,7 +4,7 @@
 
 Simple Recon Tool Just here automates your fav tools set. this my first try :) so avoid if anything weird!
 
-#Installation
+# Installation
 
 Must have this tools in /usr/local/bin with all permissions.
 
@@ -22,7 +22,7 @@ then install it correctly.
 
 save those tools in /usr/local/bin and you can modify the tool like run your fav tool there easy to change it.
 
-#Usage
+# Usage
 
 git clone https://github.com/arundhanush-r/s1mr3c.git
 
@@ -32,7 +32,7 @@ chmod +X s1mr3c
 
 ./s1mr3c example.com
 
-#Thank all
+# Thank all
 :) 
 [Twitter](https://twitter.com/arundhanush_r)
 [Instagram](https://instagram.com/arundhanush_r)
