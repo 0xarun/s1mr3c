@@ -18,6 +18,8 @@ mkdir $1/wayback-all
 mkdir $1/nmap-all
 cd $1
 
+echo ""
+echo ""
 echo -e "\e[1;34mStarting Subdomains Enumerations \e[0m"
 echo ""
 subfinder -d $1 | tee all.txt #you can change this as your peference as your fav tool!
