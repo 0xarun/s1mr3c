@@ -56,7 +56,7 @@ sleep 2
 echo ""
 echo -e "\e[1;34mStart running Waybackurls \e[0m"
 echo ""
-cat alive.txt | waybackurls | sort -u | tee wayback-all/waybackurls.txt | wc -l 
+waybackurls $1 | sort -u | tee wayback-all/waybackurls.txt | wc -l 
 echo " "
 echo "How many numbers of urls found shown above!"
 echo -e "\e[1;32m---------------Completed! Saved as waybackurls.txt------------------\e[0m"
