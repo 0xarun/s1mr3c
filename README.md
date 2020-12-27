@@ -14,6 +14,7 @@ Must have this tools in /usr/local/bin with all permissions.
 4. [subzy](https://github.com/LukaSikic/subzy)
 5. [Waybackurls](https://github.com/tomnomnom/waybackurls)
 6. [gf](https://github.com/tomnomnom/gf)
+7. [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns)
 7. [qsrepalce](https://github.com/tomnomnom/qsreplace)
 8. [gobuster](https://github.com/OJ/gobuster)
 
