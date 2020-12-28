@@ -21,6 +21,8 @@ Must have this tools in /usr/local/bin with all permissions.
 Easy to install those tools, i guess just you face the errors on while install [gf](https://github.com/tomnomnom/gf) watch how install gf 
 then install it correctly.
 
+Get any error like "unable to locate chorme" with aquatone just install chrome browser!
+
 save those tools in /usr/local/bin and you can modify the tool like run your fav tool there easy to change it.
 
 # Usage
