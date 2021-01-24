@@ -19,9 +19,9 @@ Must have this tools in /usr/local/bin with all permissions.
 7. [qsrepalce](https://github.com/tomnomnom/qsreplace)
 8. [gobuster](https://github.com/OJ/gobuster)
 
-#Important
+# Important
 
-Easy to install those tools or else you may get any errors while this install this tools let use my Drive link download the zip file extract then copy those tools to save /usr/local/bin  
+Easy to install those tools or else may you get any errors while this install this tools let use my Drive link download the zip file extract then copy those tools to save /usr/local/bin  
 
 https://drive.google.com/file/d/1QMqixoF05vVHurR3veG9tVmMZXtHJsgQ/view?usp=sharing
 
