@@ -19,12 +19,14 @@ Must have this tools in /usr/local/bin with all permissions.
 7. [qsrepalce](https://github.com/tomnomnom/qsreplace)
 8. [gobuster](https://github.com/OJ/gobuster)
 
-Easy to install those tools, i guess just you face the errors on while install [gf](https://github.com/tomnomnom/gf) watch how install gf 
-then install it correctly.
+Easy to install those tools or else you may get any errors while this install this tools let use my Drive link download the zip file extract then copy those tools to save /usr/local/bin   
+
+if sqlmap takes time you can stop it crtl + c then Namp starts!
 
 Get any error like "unable to locate chorme" with aquatone just install chrome browser!
 
-save those tools in /usr/local/bin and you can modify the tool like run your fav tool there easy to change it.
+can you easily modify the code as well as run your's fav tool.
+
 
 # Usage
 
