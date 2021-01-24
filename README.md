@@ -15,6 +15,7 @@ Must have this tools in /usr/local/bin with all permissions.
 5. [Waybackurls](https://github.com/tomnomnom/waybackurls)
 6. [gf](https://github.com/tomnomnom/gf)
 7. [Gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns)
+8. [sqlmap](https://github.com/sqlmapproject/sqlmap)
 7. [qsrepalce](https://github.com/tomnomnom/qsreplace)
 8. [gobuster](https://github.com/OJ/gobuster)
 
@@ -37,6 +38,6 @@ chmod +X s1mr3c
 
 # Thank all
 :) 
-[Twitter](https://twitter.com/arundhanush_r)
-[Instagram](https://instagram.com/arundhanush_r)
+[Twitter](https://twitter.com/0xarun)
+[Instagram](https://instagram.com/0xarun)
 
