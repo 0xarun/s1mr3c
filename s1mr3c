@@ -4,7 +4,7 @@ echo -e "\e[1;36m   ___          ______      \e[0m"
 echo -e "\e[1;36m  /     |\_/|  ___   /      \e[0m"
 echo -e "\e[1;36m  \  /| |   | /|     \ |\ | \e[0m"
 echo -e "\e[1;36m__/   | |   |  | ____/ | \| \e[0m"
-echo -e "\e[1;33m simply by <3 @arundhanush  \e[0m"
+echo -e "\e[1;33m   simply by <3 @0xarun\e[0m"
 
 if [ $# -gt 2 ];
 then
@@ -28,7 +28,7 @@ echo -e "\e[1;32m---------------Completed! Saved as all.txt------------------\e[
 echo ""
 sleep 3
 
-echo -e "\e[1;34mStarting filter live Domain \e[0m"
+echo -e "\e[1;34mStarting to filter live Domains \e[0m"
 echo ""
 cat all.txt | httprobe -s -p https:443 | sort -u | grep $1 | sed 's/https\?:\/\///' | tr -d ":443" | tee alive.txt
 chmod +X alive.txt
@@ -84,6 +84,14 @@ echo "Number of ssrf found shown above!"
 echo -e "\e[1;32m---------------Completed! Saved as wayback-ssrf.txt------------------\e[0m"
 echo ""
 
+echo ""
+echo -e "\e[1;34mEnum for SQLI from waybackurls! \e[0m"
+cat wayback-all/waybackurls.txt | gf sqli | tee wayback-all/wayback-sqli.txt | wc -l
+echo "Number of ssrf found shown above!"
+echo -e "\e[1;32m---------------Completed! Saved as wayback-sqli.txt------------------\e[0m"
+echo ""
+
+
 echo -e "\e[1;34mEnum for IDORS from waybackurls! \e[0m"
 cat wayback-all/waybackurls.txt | gf idor | tee wayback-all/wayback-idor.txt | wc -l
 echo "Number of ssrf found shown above!"
@@ -100,6 +108,11 @@ echo -e "\e[1;34mEnum for Redirect from waybackurls! \e[0m"
 cat wayback-all/waybackurls.txt | gf redirect | tee wayback-all/wayback-redirect.txt | wc -l
 echo "How many links realeted to rediret shown above!"
 echo -e "\e[1;32m---------------Completed! Saved as wayback-redirect.txt------------------\e[0m"
+
+echo ""
+echo -e "\e[1;34mTesting for sqlinjection urls from wayback-sqli.txt \e[0m"
+sqlmap -m wayback-all/wayback-sqli.txt --dbs --batch | tee sql-test-result.txt
+echo -e "\e[1;32m---------------Completed! Saved as sql-test-result.txt.txt------------------\e[0m"
 
 echo ""
 echo -e "\e[1;33mWARNING: Now nmap Starting you can stop it coz this takes lot time! \e[0m"
