@@ -22,7 +22,7 @@ echo ""
 echo ""
 echo -e "\e[1;34mStarting Subdomains Enumerations \e[0m"
 echo ""
-subfinder -d $1 | tee all.txt #you can change this as your peference as your fav tool!
+subfinder -d $1 | sort -u | tee all.txt #you can change this as your peference as your fav tool!
 echo ""
 echo -e "\e[1;32m---------------Completed! Saved as all.txt------------------\e[0m"
 echo ""
