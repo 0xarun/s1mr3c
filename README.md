@@ -24,6 +24,9 @@ Easy to install those tools or else may you get any errors while this install th
 
 https://drive.google.com/file/d/1QMqixoF05vVHurR3veG9tVmMZXtHJsgQ/view?usp=sharing
 
+**Note**
+Dont forget to add Gf-Patterns
+
 if sqlmap takes time you can stop it crtl + c then Namp starts!
 
 Get any error like "unable to locate chorme" with aquatone just install chrome browser!
