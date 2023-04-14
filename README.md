@@ -27,6 +27,14 @@ https://drive.google.com/file/d/1QMqixoF05vVHurR3veG9tVmMZXtHJsgQ/view?usp=shari
 **Note**
 Dont forget to add Gf-Patterns
 
+```bash
+git clone https://github.com/1ndianl33t/Gf-Patterns.git
+cd Gf-Patterns
+mkdir ~/.gf 
+mv *.json ~/.gf
+gf -list                                               
+```
+
 if sqlmap takes time you can stop it crtl + c then Namp starts!
 
 Get any error like "unable to locate chorme" with aquatone just install chrome browser!
