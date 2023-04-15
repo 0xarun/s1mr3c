@@ -8,8 +8,8 @@ echo -e "\e[1;33m   simply by <3 @0xarun\e[0m"
 
 if [ $# -gt 2 ];
 then
-	echo "Usage ./log.sh <domain>"
-	echo "Example: ./log.sh google.com"
+	echo "Usage ./s1mr3c <domain>"
+	echo "Example: ./s1mr3c google.com"
 	exit 1
 fi
 
@@ -22,7 +22,7 @@ echo ""
 echo ""
 echo -e "\e[1;34mStarting Subdomains Enumerations \e[0m"
 echo ""
-subfinder -d $1 | sort -u | tee all.txt #you can change this as your peference as your fav tool!
+subfinder --silent -d $1 | sort -u | tee all.txt #you can change this as your peference as your fav tool!
 echo ""
 echo -e "\e[1;32m---------------Completed! Saved as all.txt------------------\e[0m"
 echo ""
